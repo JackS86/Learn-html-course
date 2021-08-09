@@ -3,7 +3,7 @@
 #header{
     position: absolute;
     top: 150px;
-    left: 50px;
+    left: 100px;
     
 }
 
@@ -17,4 +17,24 @@ color:aquamarine;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:aliceblue;
+}
+
+hr{
+    color: gold;
+}
+
+strong{
+
+    color:gold;
+}
+
+#navigation{
+    position: absolute;
+    top: 540px;
+    left: 100px;
+}
+
+#navigation li a{
+
+    color:honeydew;
 }
