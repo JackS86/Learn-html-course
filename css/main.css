@@ -31,12 +31,16 @@ strong{
 #navigation{
     position: absolute;
     top: 540px;
-    left: 100px;
+    left: 60px;
+    color: darksalmon;
 }
 
-#navigation li a{
-    
-    color:honeydew;
+li{
+    list-style-type: none;
+
+li a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
 }
 
 #contact-us > p{
@@ -44,4 +48,13 @@ strong{
 }
 #articles h2 + p{
 color:aquamarine;
+}
+a:hover{
+    color: gold;
+}
+a:active{
+    color: aqua;
+}
+a:visited{
+    color:purple;
 }
