@@ -1,5 +1,20 @@
-h1{
-    color: blue;
-    text-decoration: underline;
-    text-transform: uppercase;
+
+
+#header{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    
+}
+
+#header h1{
+font-size: 56px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:aquamarine;
+}
+
+#header p{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
 }
