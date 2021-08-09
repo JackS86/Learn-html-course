@@ -1,4 +1,4 @@
-
+/* Style header */
 
 #header{
     position: absolute;
@@ -35,6 +35,13 @@ strong{
 }
 
 #navigation li a{
-
+    
     color:honeydew;
+}
+
+#contact-us > p{
+    color:aqua;
+}
+#articles h2 + p{
+color:aquamarine;
 }
