@@ -29,7 +29,14 @@ color:aquamarine;
     background: gold;
     border-radius: 5px;
   
+  
 }
+  
+img.fish{
+    width: 100%;
+    height: 950px;
+}
+  
 
 hr{
 
@@ -126,12 +133,7 @@ article p {
     line-height: 1em;
     margin-bottom: 32px;
     }
-s
-#baner{
-    background-color: antiquewhite;
-    width: 100%;
-    height:300px;
-    background-image: url("fish-1746454_1920.jpg");
-}
+
+
 
     
