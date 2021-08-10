@@ -1,4 +1,9 @@
 /* Style header */
+/*
+*{
+    color:aquamarine;
+}
+*/
 
 #header{
     position: absolute;
@@ -33,16 +38,15 @@ strong{
 
 #navigation{
     position: absolute;
-    top: 540px;
+    top: 420px;
     left: 60px;
+    
 }
-
-li a{
+ul li a{
     list-style-type: none;
     font-size: 18px;
     color: rgb(255, 255, 255);
 }
-
 
 
 #contact-us > p{
@@ -79,7 +83,7 @@ article p:last-of-type{
 
     color:aquamarine;
 }
-*/
+
 .test li:nth-child(1), li:nth-child(7){
 
     font-weight: bold;
@@ -95,4 +99,10 @@ article:nth-of-type(2n + 1){
     background: aquamarine;
 }
 
-
+article.skills{
+    background:tomato;
+}
+div.contact-method{
+    background:steelblue;
+}
+*/
