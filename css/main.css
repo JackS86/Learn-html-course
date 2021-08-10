@@ -5,8 +5,22 @@
 }
 */
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    background: linen;
+}
+
+#wrapper{
+    width:100%;
+    margin:0, auto;
+    background: aliceblue;
+}
+
+
 #header{
-    position: absolute;
+    z-index: 2;
+    position:absolute;
     top: 150px;
     left: 100px;
     
@@ -33,8 +47,9 @@ color:aquamarine;
 }
   
 img.fish{
+    position: static;
     width: 100%;
-    height: 950px;
+    
 }
   
 
@@ -44,96 +59,42 @@ hr{
 }
 
 strong{
-
+position: a;
     color:gold;
     
    
 }
 
 #navigation{
-    position: absolute;
-    top: 460px;
-    left: 60px;
-}
-
-
-
-
-ul li a{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1.em;
-    line-height: 22px;
-    color:aquamarine;
-}
-
-
-
-
-#articles h2 + p{
-color:aquamarine;
-}
-
-a:hover{
-    color: gold;
-}
-
-a:active{
-    color:aquamarine;
-}
-
-a:visited{
-    color:aquamarine;
-}
-
-#contact-us > p{
-    color:aqua;
-}
-
-#contact-us > p:hover{
-    color:gold;
-}
-/*
-article p:first-of-type{
-
-    font-weight: bold;
-
-}
-
-article p:last-of-type{
-
-    color:aquamarine;
-}
-
-.test li:nth-child(1), li:nth-child(7){
-
-    font-weight: bold;
-}
-
-.test li:nth-child(3n + 1){
-
-    color:aquamarine;
-}
-
-article:nth-of-type(2n + 1){
-
+    z-index: 3;
+    position: fixed;
+    width:100%;
     background: aquamarine;
+    padding: 10px;
 }
 
-article.skills{
-    background:tomato;
+
+#navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 60px;
 }
-div.contact-method{
-    background:steelblue;
+
+#navigation li{
+    display:inline-block;
+    margin-left:20px;
 }
-*/
 
-article p {
-    font-size:12px;
-    line-height: 1em;
-    margin-bottom: 32px;
-    }
+#navigation a{
+    color:black;
+    text-decoration: none;
 
+}
 
+#navigation a.current {
+    color:blanchedalmond;
+    background: rgb(1, 20, 14);
+    padding: 10px;
+    border-radius: 5px;
+}
 
-    
