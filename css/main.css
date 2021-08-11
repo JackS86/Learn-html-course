@@ -5,30 +5,28 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
-    padding: 0;;
-    background: rgb(240, 130, 20);
+    padding: 0;
 }
 
 #wrapper{
     width:100%;
-    margin:0px, auto;
-    background: aliceblue;
+    margin:0px;
+    background-color:rgb(130, 193, 223);
+    
 }
 
 /*TOP SITE*/
 #header{
     z-index: 2;
     position:absolute;
-    top: 150px;
-    left: 100px;
-    width:600px;
-    
+    bottom: 460px;
+    left:120px;
 }
 
 #header h1{
 font-size: 3.5em;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight:normal;
+font-weight:bold;
 color:aquamarine;
 }
 
@@ -46,6 +44,7 @@ color:aquamarine;
 img.fish{
     position:static;
     width: 100%;
+
 }
   
 
@@ -104,21 +103,16 @@ position: a;
     padding: 40px 20px 40px 20px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    padding;
     border: none;
     border-radius:10px;
     width: 190px;
     height:300px;
 
 }
-
-.lighter-h4{
-    font-weight: lighter;
+.lighter{
+   font-weight:lighter;
 }
 
-.all-h4{
-    margin:0, auto;
-}
 
 .how{
     text-align:justify;
@@ -165,12 +159,28 @@ position: a;
     
     background:rgb(0, 0, 0);
     width: 90px;
-  
 }
 
-/*MIDDLE SITE*/
-img.draw{
-    position:relative;
-    bottom:420px;
-    width: 100%;
+.expert{
+    display: inline-block;
+    position: absolute;
+    font-size:1.5em;
+    top: 1500px;
+    left:120px;
+    color: rgb(255, 255, 255);
+}
+
+.fish2{
+    z-index: 1;
+    position: relative;
+    bottom:550px;
+    left: 150px;
+    float:left;
+    margin-right: 30px;
+    width:250px;
+    height: auto;
+    
+    
+}
+    
 
