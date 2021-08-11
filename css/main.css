@@ -1,14 +1,12 @@
 /* Style header */
-/*
-*{
-    color:aquamarine;
-}
-*/
+
+
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
-    background: linen;
+    padding: 0;;
+    background: rgb(240, 130, 20);
 }
 
 #wrapper{
@@ -17,7 +15,7 @@ body{
     background: aliceblue;
 }
 
-
+/*TOP SITE*/
 #header{
     z-index: 2;
     position:absolute;
@@ -45,18 +43,9 @@ color:aquamarine;
     border-radius: 10px;
 }
   
-  
-.experts{
-    font-size:3em;
-    color:azure;
-    position:static;
-    bottom:220px;
-}
-  
 img.fish{
     position:static;
     width: 100%;
-    
 }
   
 
@@ -143,7 +132,7 @@ position: a;
     font-size: 12px;
     font-weight: bold ;
     
-background:aquamarine;
+    background:aquamarine;
     padding: 10px;
     width: 90px;
   
@@ -157,23 +146,31 @@ background:aquamarine;
     padding: 10px;
 }
 
-#types-of-fish{
-    display:block;
-    position:sticky;
-    top:60px;
-    margin:20px;
-    padding: 10px 0px 10px 0px;
-    color:rgb(255, 255, 255);
-    background:rgb(163, 204, 223);
-    border-radius: 10px;
-    text-align: center;
-    width:100%;
+.button-add{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold ;
+    color:azure;
+    padding: 10px;
+    background:rgb(53, 93, 139);
+    width: 90px;
   
 }
 
-#footer-banner{
-    margin:0, auto;
-    padding: 30px;
-    background: aquamarine;
-    font-size:14px;
+.button-add:hover{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold ;
+    color:azure;
+    
+    background:rgb(0, 0, 0);
+    width: 90px;
+  
 }
+
+/*MIDDLE SITE*/
+img.draw{
+    position:relative;
+    bottom:420px;
+    width: 100%;
+
